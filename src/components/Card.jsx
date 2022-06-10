@@ -4,12 +4,12 @@ export default function Card(props) {
   return (
     <div className="card">
       <div className="top">
-        <h2>{"asd" + props.name}</h2>
-        <Avatar />
+        <h2>{props.name}</h2>
+        <Avatar imgURL={props.imgURL} />
       </div>
       <div className="bottom">
-        <p>+123 456 789</p>
-        <p>b@beyonce.com</p>
+        <p>{props.phone}</p>
+        <p>{props.email}</p>
       </div>
     </div>
   );
