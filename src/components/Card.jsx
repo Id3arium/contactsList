@@ -1,10 +1,10 @@
 import React from "react";
-import Avatar from "./Avatar";
-export default function Card() {
+import Avatar from "./Avatar.jsx";
+export default function Card(props) {
   return (
     <div className="card">
       <div className="top">
-        <h2>Beyonce</h2>
+        <h2>{"asd" + props.name}</h2>
         <Avatar />
       </div>
       <div className="bottom">

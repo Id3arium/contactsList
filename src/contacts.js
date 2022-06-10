@@ -1,4 +1,4 @@
-const contacts = [
+export const contacts = [
   {
     name: "Beyonce",
     imgURL:
