@@ -1,12 +1,11 @@
+import React from "react";
+import Avatar from "./Avatar";
 export default function Card() {
   return (
     <div className="card">
       <div className="top">
         <h2>Beyonce</h2>
-        <img
-          src="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
-          alt="avatar_img"
-        />
+        <Avatar />
       </div>
       <div className="bottom">
         <p>+123 456 789</p>

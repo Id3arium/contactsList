@@ -1,10 +1,12 @@
 import React from "react";
-import styles from "../../public/styles.css";
+import "../../public/styles.css";
+import Card from "./Card";
 
 function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
+      <Card />
     </div>
   );
 }
